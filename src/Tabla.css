@@ -1,0 +1,49 @@
+.center-table{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container-table{
+    padding: 20px;
+    width: 800px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+}
+.th{
+    padding: 10px ;
+    text-align: left;
+    width: 150px;
+    background-color: rgb(95, 95, 95);
+    color: #fff;
+    border-radius: 3px;
+}
+.td{
+    padding: 10px;
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+.edit{
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(24, 127, 158);
+    background-color: rgb(0, 147, 192);
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete{
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(24, 127, 158);
+    background-color: rgb(0, 147, 192);
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.edit:hover, .delete:hover{
+    border: 1px solid rgb(0, 147, 192);
+    background-color: rgb(24, 127, 158);
+}
